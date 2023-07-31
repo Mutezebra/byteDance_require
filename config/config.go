@@ -32,7 +32,7 @@ type System struct {
 
 func InitConfig() {
 	workDir, _ := os.Getwd()                       // 获取工作目录
-	viper.SetConfigName("config")                  // 设置要搜寻的配置文件名称
+	viper.SetConfigName("example")                 // 设置要搜寻的配置文件名称
 	viper.SetConfigType("yaml")                    // 设置要搜寻得配置文件类型
 	viper.AddConfigPath(workDir + "/config/local") // 设置搜寻配置文件得路径
 	viper.AddConfigPath(workDir)                   // 同上
