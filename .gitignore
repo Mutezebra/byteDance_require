@@ -19,3 +19,9 @@
 
 # Go workspace file
 go.work
+
+.idea
+tmp
+logs
+result.txt
+config/local/config.yaml
